@@ -38,8 +38,8 @@ endif
 call textobj#user#plugin('entire', {
 \      '-': {
 \        '*sfile*': expand('<sfile>:p'),
-\        'select-a': 'ae',  '*select-a-function*': 's:select_a',
-\        'select-i': 'ie',  '*select-i-function*': 's:select_i'
+\        'select-a': 'aE',  '*select-a-function*': 's:select_a',
+\        'select-i': 'iE',  '*select-i-function*': 's:select_i'
 \      }
 \    })
 
